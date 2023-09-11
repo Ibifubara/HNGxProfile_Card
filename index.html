@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="card">
+      <img
+        src="./images/profile-picture.jpg"
+        alt="Ibifubara"
+        data-testid="slackDisplayImage"
+      />
+      <div class="profile-details">
+        <h3 data-testid="slackUserName">Ibifubara</h3>
+        <div data-testid="myTrack" class="trackname">Frontend</div>
+        <p data-testid="currentDayOfTheWeek">Current day: <span id="today"></span></p>
+        <p data-testid="currentUTCTime">Current UTC time: <span id="time"></span></p>
+
+        <div class="card-footer">
+          <div class="footer-text">
+            Link to <a href="https://github.com/Ibifubara/HNGxProfile_Card" data-testid="githubURL">Hub</a>.
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
